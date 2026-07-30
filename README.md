@@ -1,7 +1,7 @@
 # Essential DICOM Metadata for Reproducible Imaging AI
 
 A multi-phase development-and-validation study that builds a **modality-specific,
-high-value DICOM tag list** — an *essential DICOM metadata checkpoint* — for CT,
+high-value DICOM tag list** (an *essential DICOM metadata checkpoint*) for CT,
 MR, and mammography (MG). The checkpoint identifies the imaging-protocol items,
 expressed as internationally standardized DICOM attributes, that should be
 prioritized when developing, validating, and deploying medical imaging AI.
@@ -18,7 +18,7 @@ prioritized when developing, validating, and deploying medical imaging AI.
 
 Imaging AI models often behave differently once they leave the setting they were
 built in. A large and *controllable* part of that shift comes not from the
-patients but from **how images are produced** — acquisition, reconstruction,
+patients but from **how images are produced**, such as acquisition, reconstruction,
 display, and post-processing. Those parameters are already captured as
 machine-readable DICOM tag–value pairs, yet a single image carries hundreds of
 them, only a fraction of which shape any given model, and completeness varies by
@@ -29,7 +29,7 @@ matter.
 This study answers that question: **which imaging-protocol items, expressed as
 DICOM metadata, are most important to identify in advance so that a model
 performs consistently wherever it is deployed.** The framing is *adoption and
-verification*, not obligation — a practical reference developers and sites can
+verification*, not obligation: a practical reference developers and sites can
 use to check whether the context needed to reproduce a model's reported
 performance is documented.
 
@@ -42,9 +42,9 @@ performance is documented.
 | **Design** | Four-phase development-and-validation; single pre-registered round of expert consultation |
 | **Modalities** | CT, MR, mammography (MG) |
 | **Output** | Modality-specific *essential DICOM metadata checkpoint* (a prioritized tag list) |
-| **Candidate items rated** | CT 30 · MR 37 · MG 13 |
+| **Candidate items rated** | CT 30 / MR 37 / MG 13 |
 | **Phase 4 instrument** | Single online form (Google Forms), one page set per modality |
-| **Rating** | 5-point Likert importance; bands fixed in advance (4–5 high · 3 uncertain · 1–2 low) |
+| **Rating** | 5-point Likert importance; bands fixed in advance (4–5 high / 3 uncertain / 1–2 low) |
 | **Retention rule** | Median 4–5 **and** ≥ 70% of scoring respondents rate 4–5 |
 | **Pre-registration** | GitHub deposit before consultation opens · OSF [link TBD] |
 | **Contact** | Kyulee Jeon (kyulee.jeon@gmail.com), Yonsei University College of Medicine |
