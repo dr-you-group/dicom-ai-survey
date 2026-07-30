@@ -55,10 +55,10 @@ performance is documented.
 
 | Phase | What happens | Question it answers |
 |---|---|---|
-| **1 · Extraction** | Mine acquisition parameters from open-access imaging-AI literature (PubMed Central, Jul 2024–Jun 2025; 1,010 CT / 1,089 MR / 56 MG papers) with a few-shot LLM | What does the community report? |
-| **2 · Alignment** | Map extracted parameters to standardized DICOM attributes (PS3.3); organize under FAIR principles | How do these map to the standard? |
-| **3 · Threshold & validation** | Retain tags reported by > 5% of papers; test whether reporting frequency tracks model behavior via AI-model replication (FDR-adjusted) | Does reporting frequency carry a performance signal? |
-| **4 · Expert consultation** | Single structured round; experts rate each candidate's importance for real-world AI; steering committee revises | How important do experts judge each attribute to be? |
+| **1. Extraction** | Mine acquisition parameters from open-access imaging-AI literature (PubMed Central, Jul 2024–Jun 2025; 1,010 CT / 1,089 MR / 56 MG papers) with a few-shot LLM | What does the community report? |
+| **2. Alignment** | Map extracted parameters to standardized DICOM attributes (PS3.3); organize under FAIR principles | How do these map to the standard? |
+| **3. Threshold & validation** | Retain tags reported by > 5% of papers; test whether reporting frequency tracks model behavior via AI-model replication (FDR-adjusted) | Does reporting frequency carry a performance signal? |
+| **4. Expert consultation** | Single structured round; experts rate each candidate's importance for real-world AI; steering committee revises | How important do experts judge each attribute to be? |
 
 Phases 1–3 construct and internally validate a **data-driven candidate
 checkpoint**; Phase 4 refines it. The two evidence streams — what the community
