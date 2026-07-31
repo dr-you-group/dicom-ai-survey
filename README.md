@@ -6,7 +6,7 @@ MR, and mammography (MG). The checkpoint identifies the imaging-protocol items,
 expressed as internationally standardized DICOM attributes, that should be
 prioritized when developing, validating, and deploying medical imaging AI.
 
-**Now recruiting experts for Phase 4** → **[Join the expert consultation](https://forms.gle/RKGwygVSCa6AzSYk6)**
+**Now recruiting experts for Phase 4** 
 
 > **Status:** Pre-registration deposited; expert consultation (Phase 4) opening.
 > The data-driven candidate checkpoint (Phases 1–3) is built and internally
