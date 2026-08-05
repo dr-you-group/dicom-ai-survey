@@ -6,14 +6,10 @@ MR, and mammography (MG). The checkpoint identifies the imaging-protocol items,
 expressed as internationally standardized DICOM attributes, that should be
 prioritized when developing, validating, and deploying medical imaging AI.
 
-<<<<<<< Updated upstream
-**Now recruiting experts for Phase 4** 
-=======
 **Now recruiting experts for Phase 4**
 
 Respondents rate only the modalities they have experience with; any modality
 outside your expertise can be skipped in full.
->>>>>>> Stashed changes
 
 > **Status:** Pre-registration deposited; expert consultation (Phase 4) opening.
 > The data-driven candidate checkpoint (Phases 1–3) is built and internally
@@ -52,8 +48,8 @@ performance is documented.
 | **Candidate items rated** | CT 30 / MR 37 / MG 13 |
 | **Phase 4 instrument** | Single online form (Google Forms), one page set per modality; each modality opens with a gating question so respondents rate only the modalities within their expertise |
 | **Time** | ~45–60 min for all three modalities; proportionally less if a modality is skipped |
-| **Rating** | 5-point Likert importance; bands fixed in advance (4–5 high / 3 uncertain / 1–2 low) |
-| **Retention rule** | Median 4–5 **and** ≥ 70% of scoring respondents rate 4–5, computed within each modality's own denominator |
+| **Rating** | 5-point Likert importance; bands fixed in advance (4–5 high / 3 uncertain / 1–2 low); all items required within a modality you enter, with no per-item opt-out |
+| **Retention rule** | Median 4–5 **and** ≥ 70% of rating respondents rate 4–5, computed within each modality's own denominator |
 | **Pre-registration** | GitHub deposit before consultation opens |
 | **Contact** | Kyulee Jeon (jklee320@yuhs.ac), Yonsei University College of Medicine |
 
@@ -92,6 +88,7 @@ in a change log without a new version number.
 |---|---|
 | v0.13 | Pre-registration protocol: four-phase design, candidate checkpoint, and fixed Phase 4 rating/analysis rules |
 | v0.14 | Phase 4 instrument restructured: modality-level expertise gating and skip; per-modality denominators and stratification specified |
+| v0.15 | Per-item "no expertise" option removed; all items required within an entered modality |
 
 ---
 
@@ -99,7 +96,7 @@ in a change log without a new version number.
 
 > Jeon K, Park WY, Sippel Schmidt TM, Dewey B, Nagy PG, Yoon SH, You SC.
 > *Essential DICOM Metadata for Reproducible Imaging AI: A Multi-Phase
-> Development and Expert Validation Study* (Pre-registration Protocol, v0.14).
+> Development and Expert Validation Study* (Pre-registration Protocol, v0.15).
 > 2026. [OSF/repo link]
 
 The full data-driven analysis (Phases 1–3) is reported separately:
